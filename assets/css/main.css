@@ -1,0 +1,68 @@
+@import url('bootstrap.min.css');
+
+.bg-dark{
+    background: #191b1f !important;
+}
+
+.bg-black{
+    background: black;
+}
+
+.bg-lightDark{
+    background: #21222b;
+}
+.main-banner{
+    
+    background-image: url('../images/wallpaper.png');
+    border-radius: 10px;
+    /* font-family: 'Gotham'; */
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 200px;
+}
+.font-10{
+    font-size: 10px !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.mShadow{
+    text-shadow: 3px 2px #000;
+}
+
+body{
+    background: #1d1e22;
+}
+
+.sidebar{
+    max-width: 4.5rem;
+    height: 100vh;
+}
+
+.sidebar{
+    box-shadow: 1px 0px 12px #101113;
+}
+
+/* .bg-image{
+    height: 200px;
+} */
+
+.bg-lightDark:hover,.bg-lightDark:active{
+    background-color: #444;
+}
+
+.modal-body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  .modal-body::-webkit-scrollbar-track {
+    background: #21222b;        /* color of the tracking area */
+  }
+  .modal-body::-webkit-scrollbar-thumb {
+    background-color: gray;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #21222b;  /* creates padding around scroll thumb */
+  }
